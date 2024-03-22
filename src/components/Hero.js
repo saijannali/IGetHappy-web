@@ -34,7 +34,7 @@ const Hero = () => {
         </Text>
 
         <Text mb="6" fontSize={isLargerThanLG ? 'lg' : 'base'} opacity={0.7}>
-          There will need to be some text here. 
+        Your personal tool for Emotional, Mental and Physical Wellness. We help you “Get Happy”!
         </Text>
 
         <Button

@@ -1,4 +1,4 @@
-import { Flex, Spacer, Text, useMediaQuery } from '@chakra-ui/react';
+import { Flex, Spacer, Text, typography, useMediaQuery } from '@chakra-ui/react';
 import { Icon } from '@chakra-ui/react';
 import { FaTools, FaHandshake, FaStar } from 'react-icons/fa';
 import phone from '../assets/phone.png';
@@ -9,7 +9,7 @@ const AboutUs = () => {
   const array = [
     {
       id: 1,
-      text: ' Solving world problems through various web applications using efficient programs and tools',
+      text: 'Text',
       icon: phone,
     },
     {
@@ -22,6 +22,11 @@ const AboutUs = () => {
       text: 'Five star service with installament plan is readily available',
       icon: FaStar,
     },
+    {
+      id: 4,
+      text: 'Five star service with installament plan is readily available',
+      icon: FaStar,
+    }
   ];
   return (
     <Flex
@@ -39,7 +44,7 @@ const AboutUs = () => {
           <Flex
             height="300px"
             bg="blackAlpha.200"
-            width={isLargerThanMD ? '32%' : 'full'}
+            width={isLargerThanMD ? '24%' : 'full'}
             shadow="md"
             p="6"
             alignItems="center"
@@ -50,7 +55,11 @@ const AboutUs = () => {
             mb={isLargerThanMD ? '0' : '4'}
             border="1px solid #C4DDFF"
           >
-            <Icon as={arr.icon} boxSize={14} color="blue.600" mb="5" />
+            {typeof arr.icon === 'string' ? (
+              <img src={arr.icon} alt='icon' style={{width: '150px', height: '250px'}} />
+            ) : (
+              <Icon as={arr.icon} boxSize={14} color="blue.600" mb="5" />
+            )}
             <Text>{arr.text}</Text>
           </Flex>
 

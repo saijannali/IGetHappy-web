@@ -8,6 +8,7 @@ import Testimonials from './components/Testimonials';
 import React, { useRef } from 'react';
 import { useDisclosure, Box } from '@chakra-ui/react';
 import DrawerComponent from './components/DrawerComponent';
+import Email from './components/Email';
 
 function App() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -20,6 +21,7 @@ function App() {
       <Services />
       <Testimonials />
       {/* <ContactUs /> */}
+      <Email />
       <Footer />
 
       <DrawerComponent isOpen={isOpen} onClose={onClose} btnRef={btnRef} />
