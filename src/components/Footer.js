@@ -13,12 +13,12 @@ const Footer = () => {
       justifyContent="center"
     >
       <Text mb="3">
-        I Get Happy{' '}
+        I Get Happy LLC{' '}
         {/* <Link href="https://appseed.us" isExternal color="blue.500">
           AppSeed
         </Link> */}
       </Text>
-      <Text opacity="0.5">Maybe email here?</Text>
+      <Text opacity="0.5"></Text>
     </Flex>
   );
 };

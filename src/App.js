@@ -17,11 +17,13 @@ function App() {
     <Box>
       <Nav ref={btnRef} onOpen={onOpen} />
       <Hero />
+      <Email />
       <AboutUs />
       <Services />
-      <Testimonials />
-      {/* <ContactUs /> */}
-      <Email />
+
+      {/* <Testimonials /> */}
+      <ContactUs />
+      
       <Footer />
 
       <DrawerComponent isOpen={isOpen} onClose={onClose} btnRef={btnRef} />

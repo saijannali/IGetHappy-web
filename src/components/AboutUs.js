@@ -2,6 +2,10 @@ import { Flex, Spacer, Text, typography, useMediaQuery } from '@chakra-ui/react'
 import { Icon } from '@chakra-ui/react';
 import { FaTools, FaHandshake, FaStar } from 'react-icons/fa';
 import phone from '../assets/phone.png';
+import tellUs from '../assets/tellUs.png';
+import caregiver from '../assets/caregiver.png';
+import chatbot from '../assets/chatBot.png';
+import landing from '../assets/landing.png';
 import React from 'react';
 
 const AboutUs = () => {
@@ -9,23 +13,23 @@ const AboutUs = () => {
   const array = [
     {
       id: 1,
-      text: 'Text',
-      icon: phone,
+      text: 'Tell us about yourself',
+      icon: tellUs,
     },
     {
       id: 2,
-      text: 'Through team work, we collaborate and deliver quality projects of high standards',
-      icon: FaHandshake,
+      text: 'Caregiver - You can sign up to personally intervene and help your loved ones through our App',
+      icon: caregiver,
     },
     {
       id: 3,
-      text: 'Five star service with installament plan is readily available',
-      icon: FaStar,
+      text: 'Have a personal chat with our Chatbot and get specific recommendations, reminders and features to use on the App',
+      icon: chatbot,
     },
     {
       id: 4,
-      text: 'Five star service with installament plan is readily available',
-      icon: FaStar,
+      text: 'Your landing page on the App',
+      icon: landing,
     }
   ];
   return (
@@ -42,7 +46,7 @@ const AboutUs = () => {
       {array.map((arr) => (
         <>
           <Flex
-            height="300px"
+            height="500px"
             bg="blackAlpha.200"
             width={isLargerThanMD ? '24%' : 'full'}
             shadow="md"
@@ -56,7 +60,7 @@ const AboutUs = () => {
             border="1px solid #C4DDFF"
           >
             {typeof arr.icon === 'string' ? (
-              <img src={arr.icon} alt='icon' style={{width: '150px', height: '250px'}} />
+              <img src={arr.icon} alt='icon' style={{width: '200px', height: '400px'}} />
             ) : (
               <Icon as={arr.icon} boxSize={14} color="blue.600" mb="5" />
             )}

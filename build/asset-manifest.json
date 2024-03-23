@@ -1,19 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.b08a61f1.css",
-    "main.js": "/static/js/main.ed3e16ed.js",
+    "main.js": "/static/js/main.78eb42e4.js",
     "static/js/787.50aab54d.chunk.js": "/static/js/787.50aab54d.chunk.js",
+    "static/media/landing.png": "/static/media/landing.46157581e88aa62d6571.png",
+    "static/media/loginHero.png": "/static/media/loginHero.5b0faa8ab7acb81e71ca.png",
+    "static/media/chatBot.png": "/static/media/chatBot.5d3e90e3bf98e626fe71.png",
+    "static/media/tellUs.png": "/static/media/tellUs.53103c3b1bba12c7fd20.png",
+    "static/media/caregiver.png": "/static/media/caregiver.76c8fe1157d10064ed5b.png",
+    "static/media/moodStats.png": "/static/media/moodStats.6089a1f2546ff4f2ce78.png",
     "static/media/phone.png": "/static/media/phone.913820197b81be0fcf8d.png",
-    "static/media/teamImage.jpg": "/static/media/teamImage.5ee3d8171c70441d1cc0.jpg",
+    "static/media/reminders.png": "/static/media/reminders.2021fd7b5f5f6c63ca94.png",
     "static/media/chakraHero.jpg": "/static/media/chakraHero.25705d76cc71ec380149.jpg",
     "static/media/IgetUHero.png": "/static/media/IgetUHero.d20204a70351b4760672.png",
     "index.html": "/index.html",
     "main.b08a61f1.css.map": "/static/css/main.b08a61f1.css.map",
-    "main.ed3e16ed.js.map": "/static/js/main.ed3e16ed.js.map",
+    "main.78eb42e4.js.map": "/static/js/main.78eb42e4.js.map",
     "787.50aab54d.chunk.js.map": "/static/js/787.50aab54d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b08a61f1.css",
-    "static/js/main.ed3e16ed.js"
+    "static/js/main.78eb42e4.js"
   ]
 }

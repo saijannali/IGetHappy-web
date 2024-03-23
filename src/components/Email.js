@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Text, Link, VStack, Button } from '@chakra-ui/react';
+import {Text, Link, VStack, Button } from '@chakra-ui/react';
 
 const Email = () => {
     const handleEmailClick = () => {

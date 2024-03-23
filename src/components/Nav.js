@@ -7,10 +7,12 @@ import {
   useColorMode,
   useColorModeValue,
   useMediaQuery,
+  Image
 } from '@chakra-ui/react';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import { FaAlignJustify } from 'react-icons/fa';
 import { Icon } from '@chakra-ui/react';
+import igetu from '../assets/IgetUHero.png';
 
 const Nav = ({ onOpen, ref }) => {
   const [scroll, setScroll] = useState(false);
@@ -37,9 +39,10 @@ const Nav = ({ onOpen, ref }) => {
       w="full"
       bg={navBg}
     >
-      <Text fontSize="xl" fontWeight="bold">
-        I Get Happy
-      </Text>
+      {/* <Image src={igetu} alt="I Get Happy" boxSize="50px" /> Use the Image component here */}
+      {/* <Image src={igetu} alt='I Get Happy' boxSize='50px' /> */}
+
+      <Image src={igetu} alt='Brand' w='100px' h='auto' />
 
       <Spacer />
       

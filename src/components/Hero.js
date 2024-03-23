@@ -10,6 +10,7 @@ import {
 import React from 'react';
 import chakraHero from '../assets/chakraHero.jpg';
 import igetu from '../assets/IgetUHero.png';
+import login from '../assets/loginHero.png';
 
 const Hero = () => {
   const [isLargerThanLG] = useMediaQuery('(min-width: 62em)');
@@ -37,7 +38,7 @@ const Hero = () => {
         Your personal tool for Emotional, Mental and Physical Wellness. We help you “Get Happy”!
         </Text>
 
-        <Button
+        {/* <Button
           w="200px"
           colorScheme="blue"
           variant="solid"
@@ -50,7 +51,7 @@ const Hero = () => {
             }}
         >
           We need button?
-        </Button>
+        </Button> */}
       </Box>
       <Spacer />
       <Flex
@@ -58,7 +59,7 @@ const Hero = () => {
         alignItems="center"
         justifyContent="center"
       >
-        <Img src={igetu} alt="Chakra UI" />
+        <Img src={login} alt="I Get Happy" width="300px" height="auto" objectFit='cover' />
       </Flex>
     </Flex>
   );
