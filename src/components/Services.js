@@ -20,7 +20,7 @@ const Services = () => {
       minHeight="80vh"
       alignItems="center"
       px={isLargerThanLG ? '16' : '6'}
-      py="16"
+      py="12"
       justifyContent="center"
       flexDirection={isLargerThanLG ? 'row' : 'column'}
     >
@@ -46,14 +46,12 @@ const Services = () => {
         ml={isLargerThanLG ? '7' : '0'}
       >
         <Text fontSize={isLargerThanLG ? '5xl' : '4xl'} fontWeight="bold">
-          We build, We revive
+        Schedule Reminders and View Mood Stats
         </Text>
 
         <Text mb="6" opacity="0.8">
-          Your business needs to be in safe hands at all times. We ensure you
-          never run out of customers and not run at loss. We are trusted by over
-          500+ companies to deliver quality marketing campaigns using Digital
-          marketing & Offline marketing channels.
+        Set Reminders for various activities on the App.
+        View your Mood statistics for Self-reflection and share with your Therapist.
         </Text>
       </Flex>
     </Flex>

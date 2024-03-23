@@ -19,7 +19,7 @@ function App() {
       <Hero />
       <Email />
       <AboutUs />
-      <Services />
+      <Services mb='4'/>
 
       {/* <Testimonials /> */}
       <ContactUs />

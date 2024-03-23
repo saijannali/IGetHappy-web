@@ -23,7 +23,7 @@ const DrawerComponent = ({ isOpen, onClose, btnRef }) => {
 
       <DrawerContent>
         <DrawerCloseButton />
-        <DrawerHeader>Chakra</DrawerHeader>
+        <DrawerHeader></DrawerHeader>
 
         <DrawerBody>
           <Flex flexDirection="column">

@@ -51,7 +51,7 @@ const Nav = ({ onOpen, ref }) => {
           {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
         </IconButton>
 
-        {isLargerThanMD ? (
+        {/* {isLargerThanMD ? (
           <></>
           // <>
           //   <a target="_blank" rel="noreferrer" href="https://appseed.us/apps/react/" fontSize="md" mr="10">
@@ -59,10 +59,10 @@ const Nav = ({ onOpen, ref }) => {
           //   </a>
           // </>
         ) : (
-          <IconButton ref={ref} onClick={onOpen}>
-            <Icon as={FaAlignJustify} />
-          </IconButton>
-        )}
+          // <IconButton ref={ref} onClick={onOpen}>
+          //   <Icon as={FaAlignJustify} />
+          // </IconButton>
+        )} */}
 
       </Flex>
     </Flex>
