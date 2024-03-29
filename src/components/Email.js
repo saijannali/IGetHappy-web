@@ -9,10 +9,10 @@ const Email = () => {
     return (
         <VStack spacing={4} align="center" p={4} bg="gray.100" borderRadius="md" boxShadow="md">
             <Text fontSize="xl" fontWeight="bold">
-                Interested in the beta version?
+            We are currently in Stealth Development Mode. Interested in the beta version?
             </Text>
             <Text fontSize="md">
-                Shoot us a email at{' '}
+                Shoot an email at{' '}
                 <Link href="mailto:Beta@IGetHappy.com" color="blue.500" isExternal>
                     Beta@IGetHappy.com
                 </Link>{' '}
