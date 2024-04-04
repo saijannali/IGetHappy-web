@@ -17,8 +17,9 @@ import igetu from '../assets/IgetUHero.png';
 const Nav = ({ onOpen, ref }) => {
   const [scroll, setScroll] = useState(false);
   const { colorMode, toggleColorMode } = useColorMode();
-  const navBg = useColorModeValue('white', 'blackAlpha.200');
+  const navBg = useColorModeValue('white', 'gray.800');
   const [isLargerThanMD] = useMediaQuery('(min-width: 48em)');
+  const textColor = useColorModeValue('gray.800', 'white');
 
   const changeScroll = () =>
     document.body.scrollTop > 80 || document.documentElement.scrollTop > 80

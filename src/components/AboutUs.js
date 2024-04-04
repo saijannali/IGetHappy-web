@@ -13,12 +13,15 @@ import h_j32 from '../assets/h_j32.png';
 import h_j35 from '../assets/h_j35.png';
 import h_j36 from '../assets/h_j36.png';
 
-import mediation78 from '../assets/meditation78.png';
-import mediation81 from '../assets/meditation81.png';
-import mediation87 from '../assets/meditation87.png';
+import meditation78 from '../assets/meditation78.png';
+import meditation79 from '../assets/meditation79.png';
+import meditation81 from '../assets/meditation81.png';
+import meditation87 from '../assets/meditation87.png';
 
 import c_p102 from '../assets/c_p102.png'
 import c_p113 from '../assets/c_p113.png';
+import c_p115 from '../assets/c_p115.png';
+import c_p116 from '../assets/c_p116.png';
 
 import React from 'react';
 
@@ -78,18 +81,23 @@ const AboutUs = () => {
     {
       id: 1,
       text: '',
-      icon: mediation78,
+      icon: meditation78,
     },
     {
       id: 2,
       text: '',
-      icon: mediation81,
+      icon: meditation79,
     },
     {
       id: 3,
       text: '',
-      icon: mediation87,
+      icon: meditation81,
     },
+    {
+      id: 4,
+      text: '',
+      icon: meditation87
+    }
   ];
 
   const array3 = [
@@ -102,6 +110,16 @@ const AboutUs = () => {
       id: 2,
       text: '',
       icon: c_p113
+    },
+    {
+      id: 3,
+      text: '',
+      icon: c_p115,
+    },    
+    {
+      id: 4,
+      text: '',
+      icon: c_p116,
     }
   ]
 
