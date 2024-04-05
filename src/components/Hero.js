@@ -62,8 +62,11 @@ const Hero = () => {
         <Heading as="h2" size="xl" mb="4">
           🌟 Revolutionizing Mental and Emotional Well-Being: Introducing “I Get Happy” 🌟
         </Heading>
+        <Heading as="h3" size="lg" mb="2">
+          The Challenge:
+        </Heading>
         <Text mb="4">
-          The Challenge: Over a billion people worldwide grapple with mental disorders. Depression and anxiety alone exert a staggering economic toll, projected to reach $6 trillion annually by 2030. The Global Mental Health care market is surging, valued at $537.97 billion by 2030. Suicide ranks as the second leading cause of death among U.S. children aged 10 to 14. Nearly a quarter of U.S. adults face mental health conditions. The U.S. happiness ranking slipped from #15 in 2023 to #23 in 2024. Feeling the weight of these statistics?
+          Over a billion people worldwide grapple with mental disorders. Depression and anxiety alone exert a staggering economic toll, projected to reach $6 trillion annually by 2030. The Global Mental Health care market is surging, valued at $537.97 billion by 2030. Suicide ranks as the second leading cause of death among U.S. children aged 10 to 14. Nearly a quarter of U.S. adults face mental health conditions. The U.S. happiness ranking slipped from #15 in 2023 to #23 in 2024. Feeling the weight of these statistics?
         </Text>
         <Heading as="h3" size="lg" mb="2">
           The Solution: “I Get Happy”
@@ -80,7 +83,7 @@ const Hero = () => {
           📝 Beta Pre-Release: Email: <Link href="mailto:Beta@iGetHappy.com" color="teal.500">Beta@iGetHappy.com</Link>. Be part of the journey! Share feedback, influence the production release, and help us fine-tune our offerings.
         </Text>
         <Text mb="4">
-          🌐 Join the Tribe: Seeking trailblazers! If you’re passionate about our mission and can make a meaningful contribution, please send a message with your pitch to join our Advisory Board or an equity role. Seeking leaders in Mental Health, Marketing and Fund-raising. Let’s create a happier world together. 🌈🌟
+          🌐 Join the Tribe: Seeking trailblazers! If you’re passionate about our mission and can make a meaningful contribution, please send a message with your pitch to join our Advisory Board or an equity role. Seeking leaders in Mental Health, Marketing and Business Development. Let’s create a happier world together. 🌈🌟
         </Text>
       </Box>
       
