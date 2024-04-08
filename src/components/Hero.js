@@ -12,7 +12,6 @@ import {
   Link
 } from '@chakra-ui/react';
 import React from 'react';
-import chakraHero from '../assets/chakraHero.jpg';
 import igetu from '../assets/IgetUHero.png';
 import login from '../assets/loginHero.png';
 
