@@ -9,6 +9,8 @@ import React, { useRef } from 'react';
 import { useDisclosure, Box } from '@chakra-ui/react';
 import DrawerComponent from './components/DrawerComponent';
 import Email from './components/Email';
+import Openings from './pages/Openings'; 
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -29,24 +31,35 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const db = getFirestore(app);
 
+function Home() {
+  return (
+    <>
+      <Hero />
+      <Email />
+      <AboutUs />
+      <Services mb='4' />
+      {/* <Testimonials /> */}
+      <ContactUs db={db} />
+      <Footer />
+    </>
+  );
+}
+
 function App() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = useRef();
   return (
-    <Box>
-      <Nav ref={btnRef} onOpen={onOpen} />
-      <Hero />
-      <Email />
-      <AboutUs />
-      <Services mb='4'/>
-
-      {/* <Testimonials /> */}
-      <ContactUs db={db}/>
-      
-      <Footer />
-
-      <DrawerComponent isOpen={isOpen} onClose={onClose} btnRef={btnRef} />
-    </Box>
+    <Router>
+      <Box>
+        <Nav ref={btnRef} onOpen={onOpen} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/openings" element={<Openings />} />
+          {/* Define other routes */}
+        </Routes>
+        <DrawerComponent isOpen={isOpen} onClose={onClose} btnRef={btnRef} />
+      </Box>
+    </Router>
   );
 }
 

@@ -1,4 +1,5 @@
-import { Flex, Text, Link } from '@chakra-ui/react';
+import { Flex, Text } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 import React from 'react';
 
 const Footer = () => {
@@ -17,6 +18,11 @@ const Footer = () => {
         {/* <Link href="https://appseed.us" isExternal color="blue.500">
           AppSeed
         </Link> */}
+      </Text>
+      <Text mb="3">
+        <Link to="/openings" style={{ color: 'blue', fontWeight: 'bold', textTransform: 'uppercase' }}>
+          Openings
+        </Link>
       </Text>
       <Text opacity="0.5"></Text>
     </Flex>

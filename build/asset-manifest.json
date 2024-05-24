@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b08a61f1.css",
-    "main.js": "/static/js/main.6856572a.js",
+    "main.js": "/static/js/main.01227cc1.js",
     "static/js/787.50aab54d.chunk.js": "/static/js/787.50aab54d.chunk.js",
     "static/media/h_j16.png": "/static/media/h_j16.46157581e88aa62d6571.png",
     "static/media/h_j35.png": "/static/media/h_j35.0d3a021fc6b4e0e41c37.png",
@@ -22,16 +22,15 @@
     "static/media/meditation79.png": "/static/media/meditation79.38a812b3418f7b27be6c.png",
     "static/media/h_j36.png": "/static/media/h_j36.741dbff63d7e2fc23832.png",
     "static/media/reminders.png": "/static/media/reminders.2021fd7b5f5f6c63ca94.png",
-    "static/media/chakraHero.jpg": "/static/media/chakraHero.25705d76cc71ec380149.jpg",
     "static/media/IgetUHero.png": "/static/media/IgetUHero.d20204a70351b4760672.png",
     "static/media/meditation78.png": "/static/media/meditation78.02c0432669ae4578b6e2.png",
     "index.html": "/index.html",
     "main.b08a61f1.css.map": "/static/css/main.b08a61f1.css.map",
-    "main.6856572a.js.map": "/static/js/main.6856572a.js.map",
+    "main.01227cc1.js.map": "/static/js/main.01227cc1.js.map",
     "787.50aab54d.chunk.js.map": "/static/js/787.50aab54d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b08a61f1.css",
-    "static/js/main.6856572a.js"
+    "static/js/main.01227cc1.js"
   ]
 }
